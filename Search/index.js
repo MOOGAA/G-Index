@@ -1,16 +1,16 @@
 var authConfig = {
-  siteName: 'G-Index', // WebSite Name
-  version: '1.0', // VersionControl, do not modify manually
+  siteName: NAME, // WebSite Name
+  version: VE, // VersionControl, do not modify manually
   // Only material!
-  theme: 'material', // material  classic
+  theme: THEME, // material  classic
    //add themes color, darkmode
-  main_color: '', // red | pink | purple | deep-purple | indigo | blue | light-blue | cyan | teal | green | light-green | lime yellow | amber orange | deep-orange | brown | greyblue-grey
-  accent_color: '', // red | pink | purple | deep-purple | indigo | blue | light-blue | cyan | teal | green | light-green | lime | yellow | amber | orange | deep-orange
-  dark_theme: false, // true for dark theme
+  main_color: MA_C, // red | pink | purple | deep-purple | indigo | blue | light-blue | cyan | teal | green | light-green | lime yellow | amber orange | deep-orange | brown | greyblue-grey
+  accent_color: AC_C, // red | pink | purple | deep-purple | indigo | blue | light-blue | cyan | teal | green | light-green | lime | yellow | amber | orange | deep-orange
+  dark_theme: T_V, // true for dark theme
   // client_id & client_secret - PLEASE USE YOUR OWN!
-  client_id: '202264815644.apps.googleusercontent.com',
-  client_secret: 'X4Z3ca8xfWDb1Voo-F9a7ZxJ',
-  refresh_token: '', // Refresh token
+  client_id: C_ID,
+  client_secret: C_SEC,
+  refresh_token: R_T, // Refresh token
 
   /**
    * Set up multiple Drives to display; add multiples by format
@@ -25,22 +25,22 @@ var authConfig = {
   // It is possible to set only the password, only the user name, and the user name and password at the same time
   roots: [
     {
-      id: '',
-      name: 'Sample1',
-      user: 'admin',
+      id: ID_0,
+      name: N_0,
+      user: '',
       pass: ''
     },
     {
-      id: 'drive_id',
-      name: 'Sample2',
-      user: 'admin2',
-      pass: 'index'
+      id: ID_1,
+      name: N_1,
+      user: '',
+      pass: ''
     },
     {
-      id: 'folder_id',
-      name: 'Sample3',
-      user: 'admin3',
-      pass: 'index2'
+      id: ID_2,
+      name: N_2,
+      user: U_2,
+      pass: P_2
     }
   ],
   /**
