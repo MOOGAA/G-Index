@@ -4,7 +4,7 @@ var authConfig = {
   client_id: C_ID, // Google Client ID
   client_secret: C_SEC, // Google Client Secret
   refresh_token: R_T, // Refresh token
-  domain: "", //College name to display
+  domain: DOMAIN, //College name to display
   black_list: ["example@gmail.com"]
 };
 
