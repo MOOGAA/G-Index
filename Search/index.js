@@ -49,14 +49,14 @@ var authConfig = {
     * If the set value is too small, the incremental loading (page loading) of the scroll bar of the file list page will be invalid
     * Another effect of this value is that if the number of files in the directory is greater than this setting (that is, multiple pages need to be displayed), the results of the first listing directory will be cached.
    */
-  files_list_page_size: 500,
+  files_list_page_size: 100,
   /**
    * The number displayed on each page of the search results page. [Recommended setting value is between 50 and 1000];
     * If the setting is greater than 1000, it will cause an error when requesting drive api;
     * If the set value is too small, it will cause the incremental loading (page loading) of the scroll bar of the search results page to fail;
     * The size of this value affects the response speed of the search operation
    */
-  search_result_list_page_size: 50,
+  search_result_list_page_size: 100,
   // Confirm that cors can be opened
   enable_cors_file_down: false,
   // user_drive_real_root_id
