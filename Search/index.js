@@ -6,7 +6,7 @@ var authConfig = {
    //add themes color, darkmode
   main_color: MA_C, // red | pink | purple | deep-purple | indigo | blue | light-blue | cyan | teal | green | light-green | lime yellow | amber orange | deep-orange | brown | greyblue-grey
   accent_color: AC_C, // red | pink | purple | deep-purple | indigo | blue | light-blue | cyan | teal | green | light-green | lime | yellow | amber | orange | deep-orange
-  dark_theme: T_V, // true for dark theme
+  dark_theme: false, // true for dark theme
   // client_id & client_secret - PLEASE USE YOUR OWN!
   client_id: C_ID,
   client_secret: C_SEC,
